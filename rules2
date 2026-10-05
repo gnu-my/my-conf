@@ -1,0 +1,4 @@
+[filter_local]
+#瓜子漫画
+# 拒绝广告 JS 和图片加载，防止空白占位
+URL-REGEX, ^https?:\/\/www\.guazimanhua\.com\/assets\/(reader\/mobile-top-static-ad\.js|ad\/.*), reject
