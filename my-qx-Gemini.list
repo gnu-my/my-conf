@@ -6,16 +6,18 @@
 # HOST-KEYWORD: 3
 # HOST-SUFFIX: 7
 # TOTAL: 13
-HOST,ai.google.dev,Gemini
-HOST,alkalimakersuite-pa.clients6.google.com,Gemini
-HOST,makersuite.google.com,Gemini
-HOST-SUFFIX,bard.google.com,Gemini
-HOST-SUFFIX,deepmind.com,Gemini
-HOST-SUFFIX,deepmind.google,Gemini
-HOST-SUFFIX,gemini.google.com,Gemini
-HOST-SUFFIX,generativeai.google,Gemini
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,Gemini
-HOST-SUFFIX,apis.google.com,Gemini
-HOST-KEYWORD,colab,Gemini
-HOST-KEYWORD,developerprofiles,Gemini
-HOST-KEYWORD,generativelanguage,Gemini
+
+HOST,ai.google.dev,Shawn
+HOST,alkalicmakersuite-pa.clients6.google.com,Shawn
+HOST,makersuite.google.com,Shawn
+HOST-SUFFIX,bard.google.com,Shawn
+HOST-SUFFIX,deepmind.com,Shawn
+HOST-SUFFIX,deepmind.google,Shawn
+HOST-SUFFIX,gemini.google.com,Shawn
+HOST-SUFFIX,generativeai.google,Shawn
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,Shawn
+HOST-SUFFIX,apis.google.com,Shawn
+HOST-KEYWORD,colab,Shawn
+HOST-KEYWORD,developerprofiles,Shawn
+HOST-KEYWORD,generativelanguage,Shawn
+HOST-KEYWORD,hpa.googleapis.com, Shawn
