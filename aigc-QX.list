@@ -79,6 +79,8 @@ host-suffix, g.ai, 美国节点
 host-suffix, geller-pa.googleapis.com, 美国节点
 host-suffix, gemini.google, 美国节点
 host-suffix, gemini.google.com, 美国节点
+host-keyword, colab, 美国节点
+host-keyword, developerprofiles, 美国节点
 host-suffix, generativeai.google, 美国节点
 host-suffix, generativelanguage.googleapis.com, 美国节点
 host-suffix, grok.com, 美国节点
