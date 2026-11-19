@@ -1,0 +1,119 @@
+# Quantumult X AIGC 分流规则
+# 由用户提供的 Surge AIGC.list 转换
+# 所有规则统一走策略：美国节点
+# 将以下规则放入 [filter_local]，建议放在相关规则集之前
+
+# NAME: 深巷有喵的「AIGC」规则
+# AUTHOR: Rabbit-Spec
+# REPO: https://github.com/Rabbit-Spec/Surge
+# UPDATED: 2026.11.18 10:16:47
+# TOTAL: 105
+
+# ======= 手动维护规则 ========
+# Cursor
+host-suffix, cursor.com, 美国节点
+host-suffix, cursor.sh, 美国节点
+# ======= 上游同步规则 ========
+host, 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe, 美国节点
+host, ai.google.dev, 美国节点
+host, aicode.googleapis.com, 美国节点
+host, aida.googleapis.com, 美国节点
+host, aisandbox-pa.googleapis.com, 美国节点
+host, alkalicore-pa.clients6.google.com, 美国节点
+host, alkalimakersuite-pa.clients6.google.com, 美国节点
+host, antigravity-unleash.goog, 美国节点
+host, antigravity.google, 美国节点
+host, api.github.com, 美国节点
+host, api.jetbrains.ai, 美国节点
+host, browser-intake-datadoghq.com, 美国节点
+host, cdn.usefathom.com, 美国节点
+host, chat.openai.com.cdn.cloudflare.net, 美国节点
+host, cloud.zed.dev, 美国节点
+host, daily-cloudcode-pa.googleapis.com, 美国节点
+host, daily-cloudcode-pa.sandbox.googleapis.com, 美国节点
+host, gateway.ai.cloudflare.com, 美国节点
+host, inference.codeium.com, 美国节点
+host, jules.google.com, 美国节点
+host, makersuite.google.com, 美国节点
+host, openai-api.arkoselabs.com, 美国节点
+host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, 美国节点
+host, openaicomproductionae4b.blob.core.windows.net, 美国节点
+host, openrouter.ai, 美国节点
+host, production-openaicom-storage.azureedge.net, 美国节点
+host, robinfrontend-pa.googleapis.com, 美国节点
+host, server.codeium.com, 美国节点
+host, server.self-serve.windsurf.com, 美国节点
+host, static.cloudflareinsights.com, 美国节点
+host-suffix, ai.com, 美国节点
+host-suffix, aicode.googleapis.com, 美国节点
+host-suffix, aistudio.google.com, 美国节点
+host-suffix, algolia.net, 美国节点
+host-suffix, anthropic.com, 美国节点
+host-suffix, api.revenuecat.com, 美国节点
+host-suffix, api.statsig.com, 美国节点
+host-suffix, apis.google.com, 美国节点
+host-suffix, apple-relay.fastly-edge.com, 美国节点
+host-suffix, auth0.com, 美国节点
+host-suffix, bard.google.com, 美国节点
+host-suffix, challenges.cloudflare.com, 美国节点
+host-suffix, chat.com, 美国节点
+host-suffix, chatgpt.com, 美国节点
+host-suffix, chatgpt.livekit.cloud, 美国节点
+host-suffix, chatgpt.site, 美国节点
+host-suffix, clau.de, 美国节点
+host-suffix, claude.ai, 美国节点
+host-suffix, claude.com, 美国节点
+host-suffix, claudeusercontent.com, 美国节点
+host-suffix, client-api.arkoselabs.com, 美国节点
+host-suffix, clients6.google.com, 美国节点
+host-suffix, clipdrop.co, 美国节点
+host-suffix, cloudcode-pa.googleapis.com, 美国节点
+host-suffix, cp4.cloudflare.com, 美国节点
+host-suffix, deepmind.com, 美国节点
+host-suffix, deepmind.google, 美国节点
+host-suffix, dify.ai, 美国节点
+host-suffix, events.statsigapi.net, 美国节点
+host-suffix, featuregates.org, 美国节点
+host-suffix, firebaseinstallations.googleapis.com, 美国节点
+host-suffix, g.ai, 美国节点
+host-suffix, geller-pa.googleapis.com, 美国节点
+host-suffix, gemini.google, 美国节点
+host-suffix, gemini.google.com, 美国节点
+host-suffix, generativeai.google, 美国节点
+host-suffix, generativelanguage.googleapis.com, 美国节点
+host-suffix, grok.com, 美国节点
+host-suffix, groq.com, 美国节点
+host-suffix, gspe1-ssl.ls.apple.com, 美国节点
+host-suffix, guzzoni.apple.com, 美国节点
+host-suffix, host.livekit.cloud, 美国节点
+host-suffix, identrust.com, 美国节点
+host-suffix, intercom.io, 美国节点
+host-suffix, intercomcdn.com, 美国节点
+host-suffix, jasper.ai, 美国节点
+host-suffix, launchdarkly.com, 美国节点
+host-suffix, makersuite.google.com, 美国节点
+host-suffix, meta.ai, 美国节点
+host-suffix, notebooklm.google, 美国节点
+host-suffix, notebooklm.google.com, 美国节点
+host-suffix, oaistatic.com, 美国节点
+host-suffix, oaiusercontent.com, 美国节点
+host-suffix, observeit.net, 美国节点
+host-suffix, openai.com, 美国节点
+host-suffix, openaiapi-site.azureedge.net, 美国节点
+host-suffix, openaicom.imgix.net, 美国节点
+host-suffix, openart.ai, 美国节点
+host-suffix, perplexity.ai, 美国节点
+host-suffix, poe.com, 美国节点
+host-suffix, pool.ntp.org, 美国节点
+host-suffix, proactivebackend-pa.googleapis.com, 美国节点
+host-suffix, segment.io, 美国节点
+host-suffix, sentry.io, 美国节点
+host-suffix, smoot.apple.com, 美国节点
+host-suffix, sora.com, 美国节点
+host-suffix, stripe.com, 美国节点
+host-suffix, turn.livekit.cloud, 美国节点
+host-suffix, x.ai, 美国节点
+ip-asn, 20473, 美国节点
+ip-cidr, 129.146.3.78/32, 美国节点, no-resolve
+ip-cidr, 24.199.123.28/32, 美国节点, no-resolve
+ip-cidr, 64.23.132.171/32, 美国节点, no-resolve
